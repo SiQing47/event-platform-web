@@ -47,7 +47,6 @@
         </v-row>
         <!-- 如果使用 vue-router -->
         <div id="app">
-          <img src="./assets/logo.png">
           <router-view/>
         </div>
       </v-container>
@@ -61,7 +60,7 @@ export default {
   data() {
     return {
       menus: [
-        { value: 1, routerName: '/', title: '首頁' },
+        { value: 1, routerName: 'home', title: '首頁' },
         { value: 2, routerName: 'search', title: '找活動' },
         { value: 3, routerName: 'topic', title: '主題推薦' },
         { value: 4, routerName: 'festival', title: '節慶活動' },
