@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
 import HomePage from '@/components/HomePage';
+import TopicPage from '@/components/TopicPage';
 
 Vue.use(Router);
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/home',
       name: 'home',
       component: HomePage,
+    },
+    {
+      path: '/topic',
+      name: 'topic',
+      component: TopicPage,
     },
   ],
 });
