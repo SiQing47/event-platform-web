@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld';
 import HomePage from '@/components/HomePage';
 import TopicPage from '@/components/TopicPage';
 import FestivalPage from '../components/FestivalPage';
+import FestivalDetailPage from '../components/FestivalDetailPage';
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/festival',
       name: 'festival',
       component: FestivalPage,
+    },
+    {
+      path: '/festivalDetail',
+      name: 'FestivalDetail',
+      component: FestivalDetailPage,
     },
   ],
 });

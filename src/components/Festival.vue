@@ -4,14 +4,14 @@
     target="_blank"
   >
     <v-row class="pa-1">
-      <v-col cols="3" align-self="center">
+      <v-col xs="12" sm="5" md="3" align-self="center">
         <v-img
           class="white--text align-end"
           :src='getImageUrl(festival.imageUrl)'
           max-height="200"
         />
       </v-col>
-      <v-col cols="9">
+      <v-col xs="12" sm="7" md="9">
         <v-card-title>
           <v-chip v-if="festival.levelName==='國際級'"
                   label
